@@ -3,7 +3,7 @@ pipeline{
    stages{
       stage('first'){
          steps{ 
-             sh "Hello All, jenkins multi branch pipeline job"
+             echo "Hello All, jenkins multi branch pipeline job"
          }
       }
    }
